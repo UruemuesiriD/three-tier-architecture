@@ -81,7 +81,7 @@ modify the connection
 ```
 
 Note: username; admin
-![[Pasted image 20231009204245.png]]
+![Pasted image 20231009204245.png](images2/Pasted%20image%2020231009204245.png)
 # Connect to Database
 
 Note: If you don't see the DB 
@@ -89,9 +89,9 @@ Note: If you don't see the DB
 -Verify if the DB is showing Available
 
 
-![[Pasted image 20231009204820.png]]
+![Pasted image 20231009204820.png](images2/Pasted%20image%2020231009204820.png)
 
-![[Pasted image 20231009204904.png]]
+![Pasted image 20231009204904.png](images2/Pasted%20image%2020231009204904.png)
 
 -from the ec2 connect to database 
 	$ msql -h database-endpoint -u username -p 
@@ -207,7 +207,7 @@ Note:
 
 You will incur data transfer fees because your EC2 instance and your RDS database are in different Availability Zones. To avoid incurring these charges, they must be in the same Availability Zone.
 
-![[Pasted image 20231019214035.png]]
+![Pasted image 20231019214035.png](Pasted%20image%2020231019214035.png)
 
 
 NOTE:
@@ -218,7 +218,7 @@ If it showing a white screen, remote error debugging has been blocked
 ini_set ('display_errors', '1');
 ```
 
-![[Pasted image 20231018230831.png]]
+![Pasted image 20231018230831.png](Pasted%20image%2020231018230831.png)
 
 ```
 sudo nano /var/www/html/Electronix-Website/ecom/connection.inc.php
